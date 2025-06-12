@@ -92,8 +92,12 @@
       <input type="file" name="carrier" id="carrierFile" accept=".jpg,.jpeg,.png,.mp3" required>
       <div class="preview" id="carrierPreview"></div>
 
-      <label>Secret File (e.g. .txt):</label>
-      <input type="file" name="secret" required>
+      <label>Secret File (optional .txt upload):</label>
+      <input type="file" name="secret">
+
+      <label>Or type your secret message below:</label>
+      <textarea name="typed_secret" rows="4" style="width: 100%; background-color: #1f1f2e; color: #f1f1f1; border: 1px solid #555; border-radius: 6px; padding: 8px; margin-bottom: 15px;"></textarea>
+
 
       <label>Password:</label>
       <input type="password" name="password" required>
